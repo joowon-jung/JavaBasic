@@ -52,7 +52,7 @@ public class ObjectTest{
 		System.out.println("|===============|");
 		ObjectTest obj2 = new ObjectTest();
 		obj2.i=100;
-		System.out.println("obj2.i = "+obj2.i + " :  obj1.i = "+obj1.i );
+		System.out.println("obj2.i = "+obj2.i + " :  obj1.i = "+obj1.i ); //헷갈림 주의!
 		
 		System.out.println("|===============|");
 		obj2.j = 3333;

@@ -15,7 +15,7 @@ final class TopSecret03 {
 	///Field
 	//==> access modifier 를 활용한 information hiding
 	//==> final modifier를 활용한 수정 불가
-	private final int secretNo = 7777;
+	private final int secretNo = 7777; //final이라 비밀번호 변경 불가
 	
 	///Constructor
 	//==> Access modifier 를 통한 객체 생성 불가 (private Constructor을 사용한 이유 이해)
@@ -41,6 +41,8 @@ final class TopSecret03 {
 	//그러므로!! 외부에서 이 '메소드로 접근'해서 '인스턴스 생성'할 수 있도록
 	//(필드 private이였을 때 getter&setter 메소드로 접근해서 값 받아온 것처럼)
 	//인스턴스 생성 없이 클래스에 접근할 수 있는 static 매서드로 받는것
+	
+	//static은 클래스명으로 접근 가능하기 때문에 외부에서 TopSecret03.getInstance() 해서 객체 받아올 수 있음!
 	public static TopSecret03 getInstance() {
 		TopSecret03 topSecret = new TopSecret03(); //내 클래스 안이니까 인스턴스 생성 가능
 		return topSecret; //TopSecret03 (클래스) 객체 리턴

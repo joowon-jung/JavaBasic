@@ -13,7 +13,7 @@ public class Developer { //캡슐화를 적용시키지 않고 추상화만 한 
 	String job = "개발자";
 	int avgIncome = 100;
 	int projectCareer; // <== Field 선언만 한 경우(변수를 선언만 한 경우) 초기화 유무는 ?
-	//필드는 자동 initialization 되어서 int 값이 0 으로 초기화 됨
+	// 필드는 자동 initialization 되어서 int 값이 0 으로 초기화 됨
 	
 	//Method ==> 기능, 행위(behavior) 표현
 	/*

@@ -20,7 +20,7 @@ final class TopSecret04 {
 	
 	///Constructor
 	//==> Access modifier 를 통한 객체 생성 불가 (private Constructor을 사용한 이유 이해)
-	private TopSecret04() {
+	private TopSecret04() { //아무나 인스턴스 생성 불가
 		
 	}
 	

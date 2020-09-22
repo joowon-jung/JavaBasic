@@ -28,6 +28,7 @@ public class PackageTest01{
 	2. String.class 즉 문자열을 추상화한 class
 	    String 이 class 라면 현재폴더에 String 이 있는가???  
 	    또한 compile error 발생하지 않는 이유는(A a = new A() 와 비교) ?
+	    
 	    : import java.lang.*; (lang package에 내가 사용하는 클래스가 있으니 거기를 참조해서 찾을 것)
 	      이 생략되어 있어 Class Path 에서 String 을 찾았기 때문에
 	      ( Class Path : . 와 rt.jar 까지 디폴트로 경로설정이 되어 있음 

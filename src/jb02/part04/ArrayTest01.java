@@ -13,7 +13,7 @@ public class ArrayTest01 {
 	public static void main(String[] args) {
 
 		int[] intArray = new int[9]; //방의 주소를 참조하는 것
-									 // intArray 데이터타입 : intArray
+									 // intArray 데이터타입 : int[]
 
 		// 1. int Data Type array 선언 ==> int [] intArray; or int intArray[];
 		// 2. 9개의 int 를 저장(관리) 할 수 있는 공간을 갖는 array생성 ==> new int [9];

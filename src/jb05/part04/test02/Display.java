@@ -77,7 +77,7 @@ public class Display {
 		Student b1 = new Student(); //현대 차 샀는데 현대 차 메뉴얼 읽음
 		Adult b2 = new Adult(); //기아 차 샀는데 기아 차 메뉴얼 읽음
 		Old b3 = new Old(); //벤츠 샀는데 벤츠 메뉴얼 읽음 
-		//굳이. 반드시 핸들&액셀레이터가 있다는 확신이 슨다.
+		//굳이? 차만 사도 반드시 핸들 & 액셀레이터가 있다는 확신이 슨다. -> 다음 예제에서 확인
 		
 		b1.information();
 		System.out.print(b1.section); //학생

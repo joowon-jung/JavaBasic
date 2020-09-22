@@ -13,6 +13,7 @@ public class Manager extends Employee {
 	
 	//Constructor
 	public Manager() {
+		//super() 이 생략되어 있는 구조!
 		System.out.println("Manager의 default Constructor");
 	}
 	public Manager(String str) {
