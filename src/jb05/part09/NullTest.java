@@ -41,7 +41,7 @@ public class NullTest{
 		//==> localVariable 초기화
 		//==> 아래의 주석을 번갈아 풀어보고 컴파일시 에러를 확인하자. 
 		int i = 0;
-		//int i;
+//		int i;
 		System.out.println(" i : "+i);
 		
 		System.out.println("=================");

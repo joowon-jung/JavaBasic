@@ -37,6 +37,7 @@ final class TopSecret04 {
 	
 	//static method 를 이용한 instance return 하게 하여 다른 class에서 사용가능하게 함.
 	//==> managerNo를 인자로 받아 Instance 를 return 할 것인지를 판단한다.
+	
 	public static TopSecret04 getInstance(int managerNo) {
 		
 		if (managerNo == 1234) {
@@ -57,6 +58,7 @@ public class ModifierTest04 {
 		//Instance 생성 불가로 static method 를 통해 인스턴스 return 받는다.
 		//==> 또한 Instance 를 return 받는 경우도 조건(managerNo)을 충족해야 함.
 		
+		//private 생성자를 써서 인스턴스 생성 못하게 막았으니 static 메소드를 사용해서 받아온다.
 		TopSecret04 topSecret = TopSecret04.getInstance(1234);
 		System.out.println(topSecret.getSecretNo(0));
 		

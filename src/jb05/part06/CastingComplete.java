@@ -62,7 +62,7 @@ public class CastingComplete {
 		System.out.println("casting 연산자를 이용 Sub sub = (Sub)s3 명시적 형변환");
 		Sub s5 = (Sub) s3; //<== casting 연산자 이용 명시적 형변환
 		                   // ex) int i = (int) 10.0;
-		//Sub 데이터타입 sub5 선언하고, Super 데이터타입 s3을 Sub로 명시적 형변환 함!
+		//Sub 데이터타입 s5 선언하고, Super 데이터타입 s3을 Sub로 명시적 형변환 함!
 		s5.b(); //접근 가능
 		s5.a(); //Sub 클래스 안에 a도 있으니까 접근 가능!
 		//자동차 운전 하는 법을 알면 기본적인 다른 자동차는 운전 가능하다. but
